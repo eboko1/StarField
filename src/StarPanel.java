@@ -8,5 +8,9 @@ public class StarPanel {
     public void update(){
 
     }
-    public void paint(Graphics g){}
+    public void paint(Graphics g){
+
+        g.drawOval(3,5,30,40);
+    }
 }
+
