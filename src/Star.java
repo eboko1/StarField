@@ -18,7 +18,7 @@ public class Star extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         setVisible(true);
-        //add(new RPanel());
+        add(new StarPanel());
     }
     public static void main (String[] args) {
         new Star();
