@@ -18,7 +18,7 @@ public class StarPanel extends JPanel implements ActionListener{
 
     }
     public void paint(Graphics g){
-
+        g.setColor(Color.red);
         g.drawOval(3,5,30,40);
     }
 
