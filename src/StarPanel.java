@@ -11,7 +11,7 @@ public class StarPanel extends JPanel implements ActionListener{
 
     public StarPanel(){
 
-            Timer timer = new Timer(40,this);
+            Timer timer = new Timer(60,this);
             timer.start();
         }
 
