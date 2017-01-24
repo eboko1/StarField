@@ -25,7 +25,7 @@ public class StarPanel extends JPanel implements ActionListener{
 
     }
     public void paint(Graphics g){
-        g.setColor(Color.red);
+        g.setColor(Color.WHITE);
         g.drawOval(3,5,9,9);
         //for (int i=0;i<stars.length;i++){
         //    stars[i] = update();
